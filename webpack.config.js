@@ -71,7 +71,7 @@ Encore
     //.addEntry('admin', './assets/js/admin.js')
 ;
 
-const webpack = require('webpack');
-Encore.addPlugin(new webpack.debug.ProfilingPlugin());
+//const webpack = require('webpack');
+//Encore.addPlugin(new webpack.debug.ProfilingPlugin());
 
 module.exports = Encore.getWebpackConfig();
